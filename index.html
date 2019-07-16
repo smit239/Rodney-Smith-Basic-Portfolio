@@ -1,32 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <title>My First Page</title>
-  
+  <title>About | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <!-- Header -->
-  <h1>Hello World!</h1>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Rodney Smith</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="resources.html">Resources</a>
+      </nav>
+    </div>
+  </header>
 
-  <!-- Image -->
-  <img src="./assets/images/Headshot.jpeg" />
-  <br>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
 
-  <!-- Link with New Tab -->
-  <a href="https://www.google.com" target="_blank">Opens new tab</a>
-  <br>
+      <img src="assets/images/Headshot.jpeg" class="auth-image" alt="Your Name">
 
-  <!-- Bold Link -->
-  <strong><a href="https://www.youtube.com">This is a bold link</a></strong>
-  <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
-  <!--Placeholder link-->
-  <a href="#">This is a placeholder link, goes no where, for now</a>
+      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
 
+      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy Rodney Smith 2019;
+    </div>
+  </footer>
 </body>
 
 </html>

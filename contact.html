@@ -1,31 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <title>My First Page</title>
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <!-- Header -->
-  <h1>Rodney Smith Bio</h1>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Rodney Smith</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="Resources.html">Resources</a>
+      </nav>
+    </div>
+  </header>
 
-  <!-- Image -->
-  <img src="./assets/images/Headshot.jpeg" />
-  <br>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-  <!-- Link with New Tab -->
-  <a href="https://www.google.com" target="_blank">Opens new tab</a>
-  <br>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-  <!-- Bold Link -->
-  <strong><a href="https://www.youtube.com">This is a bold link</a></strong>
-  <br>
+    </section>
 
-  <!--Placeholder link-->
-  <a href="#">This is a placeholder link, goes no where, for now</a>
+  </div>
 
+  <footer>
+    <div class="container">
+    Copyright &copy Rodney Smith 2019;    
+  </div>
+  </footer>
 </body>
 
 </html>

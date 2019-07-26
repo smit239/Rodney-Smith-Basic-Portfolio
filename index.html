@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -13,11 +14,37 @@
     <div class="container">
       <a href="index.html" id="logo">Rodney Smith</a>
       <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-        <a href="resources.html">Resources</a>
-      </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+              </li>
+              <a href="resources.html">Resources</a>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
     </div>
   </header>
 
@@ -25,24 +52,31 @@
     <section class="main-section">
       <div class="col-1">
         <div id="connect">
-            <hr>
-            <a href="https://github.com/smit239" target="_blank"><img src="assets/images/if_github-square-social-media_764894.png" height="51"/></a>
-            <a href="https://www.linkedin.com/in/rodney-smith-86a81319/" target="_blank"><img src="assets/images/if_square-linkedin_317725.png" height="51"/></a>
-            <a href="https://stackoverflow.com/users/11827403/rodney-smith" target="_blank"><img src="assets/images/if_stackoverflow-square-social-media_764927.png" height="51"/></a>
-    
-      <h1>About Me</h1>
+          <hr>
+          <a href="https://github.com/smit239" target="_blank"><img
+              src="assets/images/if_github-square-social-media_764894.png" height="51" /></a>
+          <a href="https://www.linkedin.com/in/rodney-smith-86a81319/" target="_blank"><img
+              src="assets/images/if_square-linkedin_317725.png" height="51" /></a>
+          <a href="https://stackoverflow.com/users/11827403/rodney-smith" target="_blank"><img
+              src="assets/images/if_stackoverflow-square-social-media_764927.png" height="51" /></a>
 
-      <img src="assets/images/Headshot.jpeg" class="auth-image" alt="Your Name">
+          <h1>About Me</h1>
 
-      Hello,
-      My name is Rodney Smith a future Code Developer. I have 12 years of networking experience within Information Systems Technology. I am a Cisco Certified Network Associate, Microsoft Certified Administrator and CompTIA A+ Certified. I want to Utilize my knowledge and skills as a Network Systems Administrator to further my career in Information Technology while working to implement best practices in Full Stack coding, Development operations,Network, and Data Center operations.
-      
+          <img src="assets/images/Headshot.jpeg" class="auth-image" alt="Your Name">
+
+          Hello,
+          My name is Rodney Smith a future Code Developer. I have 12 years of networking experience within Information
+          Systems Technology. I am a Cisco Certified Network Associate, Microsoft Certified Administrator and CompTIA A+
+          Certified. I want to Utilize my knowledge and skills as a Network Systems Administrator to further my career
+          in Information Technology while working to implement best practices in Full Stack coding, Development
+          operations,Network, and Data Center operations.
+
 
 
     </section>
 
   </div>
-    
+
 
   <footer>
     <div class="container">

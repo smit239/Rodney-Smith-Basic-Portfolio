@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #00008B;
-  background-color: #00008B;
+  background-color: white;
 }
 
 * {
@@ -17,6 +17,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  background: white;
 }
 
 h1,
@@ -35,7 +36,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #544aaa;
+  color: 00008B;
 }
 
 h1 {
@@ -53,15 +54,11 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
-  z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
-  overflow: auto;
-  color: #ffffff;
-  background: #ffffff;
-  border-bottom: 2px solid #cccccc;
-}
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+  
 
 #logo {
   float: left;
@@ -74,7 +71,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #584aaa;
+  background: 00008B;
 }
 
 nav {
@@ -122,6 +119,7 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  background: #00008B;
 }
 
 .main-section {
